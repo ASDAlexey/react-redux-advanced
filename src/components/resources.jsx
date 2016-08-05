@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, { Component } from "react";
 
 export default class Resources extends Component {
     render() {
@@ -15,9 +14,3 @@ export default class Resources extends Component {
         );
     }
 }
-
-function mapStateToProps(state) {
-    return { posts: state.posts };
-}
-
-export default connect(mapStateToProps)(Resources);
